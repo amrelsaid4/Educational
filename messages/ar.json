@@ -1,0 +1,211 @@
+{
+  "Register": {
+    "Title": "مرحبًا",
+    "subtitle": "إنضم إلى عائلة",
+    "Form": {
+      "UserName": "اسم المستخدم",
+      "EmailAddress": "عنوان البريد الإلكتروني",
+      "Password": "كلمة المرور",
+      "ConfirmPassword": "تأكيد كلمة المرور",
+      "SignUp": "سجّل الآن",
+      "SigningUp": "جارٍ التسجيل...",
+      "Or": "أو",
+      "SignInWithGoogle": "تسجيل الدخول باستخدام جوجل",
+      "SigningInWithGoogle": "جارٍ تسجيل الدخول...",
+      "AlreadyHaveAccount": "لديك حساب بالفعل؟",
+      "Login": "تسجيل الدخول"
+    },
+    "ToastsOrMessages": {
+      "RegistrationSuccessful": "تم التسجيل بنجاح، مرحبًا بك!",
+      "RegistrationFailed": "فشل في التسجيل. يرجى المحاولة لاحقًا.",
+      "EmailALreadyInUseError": "عنوان البريد الإلكتروني مستخدم بالفعل من قبل حساب آخر.",
+      "WeakPasswordError": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+      "DefaultError": "فشل في التسجيل. يرجى المحاولة لاحقًا.",
+      "PopupClosedByUser": "فشل في تسجيل الدخول باستخدام جوجل ، الرجاء إعادة المحاولة"
+    },
+    "Validation": {
+      "UserName": {
+        "min": "يجب أن يكون اسم المستخدم 3 أحرف على الأقل",
+        "max": "يجب ألا يزيد اسم المستخدم عن 20 حرفًا",
+        "required": "اسم المستخدم مطلوب"
+      },
+      "EmailAddress": {
+        "email": "عنوان البريد الإلكتروني غير صالح",
+        "required": "البريد الإلكتروني مطلوب"
+      },
+      "Password": {
+        "min": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+        "required": "كلمة المرور مطلوبة"
+      },
+      "ConfirmPassword": {
+        "required": "تأكيد كلمة المرور مطلوب",
+        "oneOf": "يجب أن تتطابق كلمتا المرور"
+      }
+    }
+  },
+
+  "MetaData": {
+    "Keywords": "أفلام، مسلسلات ، برامج تلفزيونية، بث مباشر، مراجعات، ممثلون، ممثلات، صور، تقييمات، ملخص، مقاطع دعائية، تشويقات، شارة النهاية، طاقم العمل، فيلم أوكْلوك ، فيلمو كلوك ، فيلم اوكلوك",
+    "Movie": " فيلم ",
+    "TvShow": " مسلسل ",
+    "MainPage": {
+      "Title": "فيلم اوكلوك - Film O'Clock",
+      "Description": "فيلم أوكْلوك هو رفيقك المثالي لعالم الأفلام — اكتشف، تابع، واستعرض أحدث الأفلام والمسلسلات التلفزيونية مع صور جذابة، قوائم مشاهدة مخصصة، ودعم متعدد اللغات. فيلمك المفضل القادم على بُعد لحظة واحدة فقط!"
+    },
+    "Library": {
+      "watchlist": {
+        "Title": "قائمة المشاهدة | فيلم أوكْلوك - FilmO'Clock",
+        "Description": "هنا ستجد الأفلام والمسلسلات التي قمت بحفظها في قائمة المشاهدة"
+      },
+      "favorites": {
+        "Title": "المفضّلة | فيلم أوكْلوك - FilmO'Clock",
+        "Description": "هنا ستجد الأفلام والمسلسلات التي قمت بحفظها في المفضّلة"
+      },
+      "WatchedList": {
+        "Title": "العروض التي تمت مشاهدتها | فيلم أوكْلوك - FilmO'Clock",
+        "Description": "هنا ستجد الأفلام والمسلسلات التي قمت بمشاهدتها"
+      }
+    },
+    "Profile": {
+      "Title": "الملف الشخصي | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "هنا ستجد جميع المعلومات حول حسابك"
+    },
+    "actionUrls": {
+      "resetPassword": {
+        "Title": "إعادة تعيين كلمة المرور | فيلم أوكْلوك - FilmO'Clock",
+        "Description": "إعادة تعيين كلمة المرور"
+      },
+      "verifyEmail": {
+        "Title": "تفعيل البريد الإلكتروني | فيلم أوكْلوك - FilmO'Clock",
+        "Description": "تفعيل بريدك الإلكتروني"
+      },
+      "recoverEmail": {
+        "Title": "استرجاع البريد الألكتروني | فيلم أوكْلوك - FilmO'Clock",
+        "Description": "استرجاع البريد الألكتروني"
+      }
+    },
+    "Login": {
+      "Title": "تسجيل الدخول | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تسجيل الدخول إلى حسابك"
+    },
+    "Register": {
+      "Title": "إنشاء حساب | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "انشاء حسابك"
+    },
+    "ForgotPassword": {
+      "Title": "إعادة تعيين كلمة المرور | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "إعادة تعيين كلمة المرور الخاصة بك"
+    },
+    "Explore": {
+      "Description": "استكشف أحدث الأفلام والبرامج التلفزيونية مع صور مذهلة وقوائم مشاهدة مخصصة ودعم متعدد اللغات.",
+      "Movies": {
+        "Title": "أفلام اليوم | فيلم أوكْلوك - FilmO'Clock - FilmO'Clock"
+      },
+      "TvShows": {
+        "Title": "مسلسلات اليوم | فيلم أوكْلوك - FilmO'Clock - FilmO'Clock"
+      }
+    },
+    "GenresPage": {
+      "MoviesTitle": "أنواع الافلام | فيلم أوكْلوك - FilmO'Clock",
+      "TvShowsTitle": "أنواع المسلسلات | فيلم أوكْلوك - FilmO'Clock",
+      "MoviesDescription": "تصفّح الأفلام حسب النوع",
+      "TvShowsDescription": "تصفّح المسلسلات حسب النوع"
+    },
+    "AllMovies": {
+      "Title": "تصفّح الافلام | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "إستكشف كل الأفلام بتحديد فلاتر البحث المتعددة."
+    },
+    "AllTvShows": {
+      "Title": "تصفّح المسلسلات | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "إستكشف كل المسلسلات بإستخدام فلاتر بحث متعددة"
+    },
+    "NowPlayingMovies": {
+      "Title": "المعروض حاليًا | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح الأفلام التي تُعرض الآن بجميع تفاصيلها"
+    },
+    "UpcomingMovies": {
+      "Title": "الافلام القادمة | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح الافلام القادمة"
+    },
+    "PopularPeople": {
+      "Title": "مشاهير اليوم | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح مشاهير اليوم"
+    },
+    "TrendingPeople": {
+      "Title": "المشاهير الرائجة | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح المشاهير الرائجة"
+    },
+    "PopularMovies": {
+      "Title": "افلام اليوم | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح افلام اليوم"
+    },
+    "PopularTvShows": {
+      "Title": "مسلسلات اليوم | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح مسلسلات اليوم"
+    },
+    "TopRatedMovies": {
+      "Title": "الأفلام الأعلى تقييمًا | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح الافلام الاعلى تقييمًا"
+    },
+    "TopRatedTvShows": {
+      "Title": "المسلسلات الأعلى تقييمًا | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح المسلسلات الاعلى تقييمًا"
+    },
+    "TrendingMovies": {
+      "Title": "افلام رائجة | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "استكشف الأفلام الرائجة اليوم"
+    },
+    "TrendingTvShows": {
+      "Title": "مسلسلات رائجة | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "استكشف المسلسلات الرائجة اليوم"
+    },
+    "AiringTodayTvShows": {
+      "Title": "يُعرض اليوم | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح المسلسلات والبرامج التلفزيونية التي تُعرض اليوم"
+    },
+    "OnTheAirTvShows": {
+      "Title": "المسلسلات المعروضة الآن | فيلم أوكْلوك - FilmO'Clock",
+      "Description": "تصفّح المسلسلات والبرامج التلفزيونية المعروضة الآن"
+    },
+    "WatchTv": {
+      "Title": "{TvName} الموسم({s}) الحلقة({e}) مشاهدة مسلسل | FilmO'Clock"
+    },
+    "WatchMovie": {
+      "Title": "{MovieName} مشاهدة فيلم | FilmO'Clock"
+    },
+    "SearchResults": {
+      "title": "({query}) نتائج البحث | FilmO'Clock",
+      "titleWithPage": "({query}) نتائج البحث | صفحة {page} | FilmO'Clock",
+      "description": "ابحث عن الأفلام والبرامج التلفزيونية والأشخاص المرتبطين بـ {query}.",
+      "descriptionWithPage": "صفحة {page} من نتائج البحث عن {query}."
+    },
+    "NotFound": {
+      "Title": "404 - صفحة غير موجودة",
+      "description": "الصفحة التي تبحث عنها غير موجودة. قد تكون تم نقلها أو تم حذفها."
+    },
+    "CompanyPage": {
+      "siteName": "فيلم اوكلوك",
+      "NotFoundTitle": "الشركة غير موجودة",
+      "TitleSuffix": "{type} بواسطة الشركة",
+      "MetaDescriptionFallback": "استكشف محتوى {type} من إنتاج {companyName}. تعرف على التفاصيل والمقر والمزيد.",
+      "movie": "أفلام",
+      "tv": "مسلسلات"
+    },
+    "terms": {
+      "Title": "شروط الخدمة | فيلم اوكلوك",
+      "Description": "راجع الشروط والأحكام الخاصة باستخدام هذا المشروع التجريبي."
+    },
+    "privacy": {
+      "Title": "سياسة الخصوصية | فيلم اوكلوك",
+      "Description": "تعرف على كيفية تعاملنا مع معلوماتك في هذا المشروع التعليمي."
+    },
+    "dmca": {
+      "Title": "إشعار DMCA |  فيلم اوكلوك",
+      "Description": "تعرف على كيفية تعاملنا مع شكاوى المحتوى بموجب قانون DMCA."
+    },
+    "content-removal": {
+      "Title": "إزالة المحتوى | فيلم اوكلوك",
+      "Description": "اكتشف كيفية تقديم طلب لإزالة المحتوى المعروض في هذا المشروع."
+    }
+  }
+}

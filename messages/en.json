@@ -1,0 +1,211 @@
+{
+  "Register": {
+    "Title": "Welcome",
+    "subtitle": "Join the family of",
+    "Form": {
+      "UserName": "User name",
+      "EmailAddress": "Email address",
+      "Password": "Password",
+      "ConfirmPassword": "Confirm password",
+      "SignUp": "Sign up",
+      "SigningUp": "Signing up...",
+      "Or": "or",
+      "SignInWithGoogle": "Sign in with Google",
+      "SigningInWithGoogle": "Signing in...",
+      "AlreadyHaveAccount": "Already have an account?",
+      "Login": "Login"
+    },
+    "ToastsOrMessages": {
+      "RegistrationSuccessful": "Registration successful , welcome!",
+      "RegistrationFailed": "Registration failed. Please try again later.",
+      "EmailALreadyInUseError": "The email address is already in use by another account.",
+      "WeakPasswordError": "Password must be at least 6 characters",
+      "DefaultError": "Registration failed. Please try again later.",
+      "PopupClosedByUser": "Login by google failed , please try again."
+    },
+    "Validation": {
+      "UserName": {
+        "min": "User name must be at least 3 characters",
+        "max": "User name must be at most 20 characters",
+        "required": "User name is required"
+      },
+      "EmailAddress": {
+        "email": "Invalid email address",
+        "required": "Email is required"
+      },
+      "Password": {
+        "min": "Password must be at least 6 characters",
+        "required": "Password is required"
+      },
+      "ConfirmPassword": {
+        "required": "Confirm password is required",
+        "oneOf": "Passwords must match"
+      }
+    }
+  },
+
+  "MetaData": {
+    "Keywords": "Film O'Clock, Movies, TV Shows , Series , Streaming, Reviews, API, Actors, Actresses, Photos, Ratings, Synopsis, Trailers, Teasers, Credits, Cast, Movies, TV Shows, Streaming, Reviews,  Actors, Actresses, Photos, Ratings, Synopsis, Trailers, Teasers, Credits, Cast, film oclock, film clock, film-oclock, filmo clock",
+    "Movie": " Movie ",
+    "TvShow": " TV Show ",
+    "MainPage": {
+      "Title": "Film O'Clock",
+      "Description": "Film OClock is your ultimate movie companion — discover, track, and explore the latest movies and TV shows with stunning visuals, personalized watchlists, and multi-language support. Your next favorite film is just a tick away!"
+    },
+    "Library": {
+      "watchlist": {
+        "Title": "Watchlist | FilmO'Clock",
+        "Description": "Here you will find the Movies and Tv shows you have saved in your watchlist."
+      },
+      "favorites": {
+        "Title": "Favorites | FilmO'Clock",
+        "Description": "Here you will find the Movies and Tv shows you have saved in your favorites."
+      },
+      "WatchedList": {
+        "Title": "Watched List | FilmO'Clock",
+        "Description": "Here you will find the Movies and Tv shows you have watched."
+      }
+    },
+    "Profile": {
+      "Title": "Profile | FilmO'Clock",
+      "Description": "Here you will find all the information about your account."
+    },
+    "actionUrls": {
+      "resetPassword": {
+        "Title": "Reset Password | FilmO'Clock",
+        "Description": "Reset your password"
+      },
+      "verifyEmail": {
+        "Title": "Activate Account | FilmO'Clock",
+        "Description": "Activate your account"
+      },
+      "recoverEmail": {
+        "Title": "Recover Email | FilmO'Clock",
+        "Description": "Recover your email"
+      }
+    },
+    "Login": {
+      "Title": "Login | FilmO'Clock",
+      "Description": "Sign in to your account"
+    },
+    "Register": {
+      "Title": "Register | FilmO'Clock",
+      "Description": "Create your account"
+    },
+    "ForgotPassword": {
+      "Title": "Reset Password | FilmO'Clock",
+      "Description": "Reset your password"
+    },
+    "Explore": {
+      "Description": "Discover the latest movies and TV shows with stunning visuals, personalized watchlists, and multi-language support.",
+      "Movies": {
+        "Title": "Today's Movies | FilmO'Clock"
+      },
+      "TvShows": {
+        "Title": "Today's TV Shows | FilmO'Clock"
+      }
+    },
+    "GenresPage": {
+      "MoviesTitle": "Movies by Genre | FilmO'Clock",
+      "TvShowsTitle": "TV Shows by Genre | FilmO'Clock",
+      "MoviesDescription": "Discover movies by genre.",
+      "TvShowsDescription": "Discover TV shows by genre."
+    },
+    "AllMovies": {
+      "Title": "Discover Movies | FilmO'Clock",
+      "Description": "Discover All Movies by multiple search filters."
+    },
+    "AllTvShows": {
+      "Title": "Discover TV Shows | FilmO'Clock",
+      "Description": "Discover All TV shows by multiple search filters."
+    },
+    "NowPlayingMovies": {
+      "Title": "Now Playing Movies | FilmO'Clock",
+      "Description": "Discover the latest movies currently in theaters."
+    },
+    "UpcomingMovies": {
+      "Title": "Upcoming Movies | FilmO'Clock",
+      "Description": "Discover upcoming movies."
+    },
+    "PopularPeople": {
+      "Title": "Popular People | FilmO'Clock",
+      "Description": "Discover popular people."
+    },
+    "TrendingPeople": {
+      "Title": "Trending People | FilmO'Clock",
+      "Description": "Discover trending people."
+    },
+    "PopularMovies": {
+      "Title": "Popular Movies | FilmO'Clock",
+      "Description": "Discover popular movies."
+    },
+    "PopularTvShows": {
+      "Title": "Popular TV Shows | FilmO'Clock",
+      "Description": "Discover popular TV shows."
+    },
+    "TopRatedMovies": {
+      "Title": "Top Rated Movies | FilmO'Clock",
+      "Description": "Discover top rated movies."
+    },
+    "TopRatedTvShows": {
+      "Title": "Top Rated TV Shows | FilmO'Clock",
+      "Description": "Discover top rated TV shows."
+    },
+    "TrendingMovies": {
+      "Title": "Trending Movies | FilmO'Clock",
+      "Description": "Discover trending movies."
+    },
+    "TrendingTvShows": {
+      "Title": "Trending TV Shows | FilmO'Clock",
+      "Description": "Discover trending TV shows."
+    },
+    "AiringTodayTvShows": {
+      "Title": "TV Shows Airing Today | FilmO'Clock",
+      "Description": "Discover TV shows airing today."
+    },
+    "OnTheAirTvShows": {
+      "Title": "Currently Airing TV Shows | FilmO'Clock",
+      "Description": "Discover TV shows currently airing."
+    },
+    "WatchTv": {
+      "Title": "{TvName} Season({s}) Episode({e}) (TV Series) | FilmO'Clock"
+    },
+    "WatchMovie": {
+      "Title": "{MovieName} (Movie) | FilmO'Clock"
+    },
+    "SearchResults": {
+      "title": "({query}) Search results | FilmO'Clock",
+      "titleWithPage": "({query}) Search results - page {page} | FilmO'Clock",
+      "description": "Find movies, TV shows, and people related to '{query}'.",
+      "descriptionWithPage": "Page {page} of search results for {query}."
+    },
+    "NotFound": {
+      "Title": "404 - Page Not Found",
+      "description": "The page you are looking for does not exist. It might have been moved or deleted."
+    },
+    "CompanyPage": {
+      "siteName": "FilmO'Clock",
+      "NotFoundTitle": "Company Not Found",
+      "TitleSuffix": "{type} by Company",
+      "MetaDescriptionFallback": "Explore {type} content by {companyName}. Discover details, headquarters, and more.",
+      "movie": "Movies",
+      "tv": "TV Shows"
+    },
+    "terms": {
+      "Title": "Terms of Service | Film O'Clock",
+      "Description": "Review the terms and conditions of using this demo project."
+    },
+    "privacy": {
+      "Title": "Privacy Policy | Film O'Clock",
+      "Description": "Learn how we handle your information in this educational project."
+    },
+    "dmca": {
+      "Title": "DMCA Notice | Film O'Clock",
+      "Description": "Understand how we handle DMCA content complaints."
+    },
+    "content-removal": {
+      "Title": "Content Removal | Film O'Clock",
+      "Description": "Find out how to request removal of content shown in this demo."
+    }
+  }
+}
