@@ -1,0 +1,23 @@
+commit 87645f36d24c73aaca8a6bfd0babe87b7b05874c
+Author: Mfawzy9 <mahmoud.fawzy.992000@gmail.com>
+Date:   Thu Jun 26 21:07:46 2025 +0300
+
+    shadcn , locale , darkmode
+
+commit 2b0e2d214fad6fd461edcafd707e2faba592bcf5
+Author: Mfawzy9 <mahmoud.fawzy.992000@gmail.com>
+Date:   Sun Jun 22 22:12:16 2025 +0300
+
+    initial basics
+
+commit 1e67cbca01dbcb15030345753a35b53cc5b1a50a
+Author: amrelsaid4 <amrelsaid6288@gmail.com>
+Date:   Sun Jun 22 21:13:07 2025 +0300
+
+    updata package.json
+
+commit 131e0724f85819c2cc3d573e9c8a1331ac52e00f
+Author: amrelsaid4 <amrelsaid6288@gmail.com>
+Date:   Sun Jun 22 21:02:37 2025 +0300
+
+    first commit
