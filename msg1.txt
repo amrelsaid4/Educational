@@ -1,0 +1,6 @@
+refactor: remove legacy components and page structure
+
+- Prune old `_Components` directory.
+- Remove deprecated `(pages)` routing structure.
+- Delete unused Redux store and slices.
+- This prepares the project for the new role-based routing and component architecture. 
