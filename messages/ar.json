@@ -1,4 +1,82 @@
 {
+  "Landing": {
+    "Hero": {
+      "Title": "حوّل التعليم مع منصتنا التعليمية الشاملة",
+      "Subtitle": "امنح المعلمين القوة، واجذب الطلاب، وسهّل الإدارة مع حلنا التعليمي المتكامل الذي يتضمن إدارة الدورات والامتحانات الرقمية والتحليلات القوية.",
+      "GetStarted": "ابدأ الآن",
+      "WatchDemo": "شاهد العرض التوضيحي",
+      "TrustedBy": "يثق بنا أكثر من 10,000+ معلم حول العالم"
+    },
+    "Features": {
+      "Title": "كل ما تحتاجه للتعليم الحديث",
+      "Subtitle": "توفر منصتنا الشاملة جميع الأدوات اللازمة لتقديم تجارب تعليمية استثنائية.",
+      "CourseManagement": {
+        "Title": "إدارة الدورات",
+        "Description": "إنشاء وتنظيم الدورات بهيكل هرمي: السنوات ← الفصول ← الوحدات ← الدروس. إدارة المحتوى بسهولة وتتبع التقدم."
+      },
+      "OnlineExams": {
+        "Title": "الامتحانات والاختبارات الرقمية",
+        "Description": "بناء امتحانات شاملة مع أنواع أسئلة متعددة، وتصحيح تلقائي، وتحليلات مفصلة لأداء الطلاب."
+      },
+      "Assignment": {
+        "Title": "نظام الواجبات",
+        "Description": "إنشاء وتوزيع وتقييم الواجبات مع رفع الملفات والمعايير وإدارة المواعيد النهائية التلقائية."
+      },
+      "Analytics": {
+        "Title": "تحليلات قوية",
+        "Description": "تتبع تقدم الطلاب وفعالية الدورات وأداء المؤسسة مع تقارير ورؤى مفصلة."
+      },
+      "Community": {
+        "Title": "مجتمع التعلم",
+        "Description": "تعزيز التعاون مع منتديات النقاش ومجموعات الدراسة وميزات التعلم التفاعلي."
+      },
+      "MultiLanguage": {
+        "Title": "دعم متعدد اللغات",
+        "Description": "دعم كامل للعربية والإنجليزية مع تخطيط RTL للتعليم العالمي الشامل."
+      }
+    },
+    "Pricing": {
+      "Title": "اختر خطتك",
+      "Subtitle": "أسعار مرنة للمؤسسات من جميع الأحجام",
+      "Free": {
+        "Title": "مجاني",
+        "Price": "$0",
+        "Period": "/شهر"
+      },
+      "Basic": {
+        "Title": "أساسي",
+        "Price": "$29",
+        "Period": "/شهر"
+      },
+      "Premium": {
+        "Title": "مميز",
+        "Price": "$99",
+        "Period": "/شهر"
+      }
+    },
+    "Testimonials": {
+      "Title": "ما يقوله المعلمون",
+      "Subtitle": "انضم لآلاف المعلمين والمؤسسات الراضية"
+    },
+    "FAQ": {
+      "Title": "الأسئلة الشائعة",
+      "Questions": {
+        "Setup": {
+          "Question": "ما مدى سرعة البدء؟",
+          "Answer": "يمكنك إعداد منصتك التعليمية في دقائق معدودة. أنشئ حسابك، ادع فريقك، وابدأ في بناء الدورات فوراً."
+        },
+        "Support": {
+          "Question": "ما نوع الدعم الذي تقدمونه؟",
+          "Answer": "نوفر دعماً على مدار الساعة لجميع المستخدمين، مع دعم أولوية للخطط المميزة. فريقنا يضم متخصصين في تكنولوجيا التعليم لمساعدتك في النجاح."
+        },
+        "Migration": {
+          "Question": "هل يمكننا الانتقال من نظامنا الحالي؟",
+          "Answer": "نعم! نوفر أدوات ومساعدة شاملة للانتقال لمساعدتك في نقل دوراتك وبيانات الطلاب والمحتوى الحالي بسلاسة."
+        }
+      }
+    }
+  },
+
   "Register": {
     "Title": "مرحبًا",
     "subtitle": "إنضم إلى عائلة",
@@ -206,6 +284,272 @@
     "content-removal": {
       "Title": "إزالة المحتوى | فيلم اوكلوك",
       "Description": "اكتشف كيفية تقديم طلب لإزالة المحتوى المعروض في هذا المشروع."
+    }
+  },
+
+  "Student": {
+    "Navigation": {
+      "dashboard": "لوحة التحكم",
+      "courses": "دوراتي",
+      "assignments": "الواجبات",
+      "exams": "الامتحانات",
+      "calendar": "التقويم",
+      "community": "المجتمع",
+      "messages": "الرسائل",
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات"
+    },
+    "Header": {
+      "searchPlaceholder": "ابحث هنا...",
+      "notifications": "الإشعارات",
+      "viewAll": "عرض الكل",
+      "userMenu": {
+        "profile": "الملف الشخصي",
+        "settings": "الإعدادات",
+        "logout": "تسجيل الخروج"
+      }
+    },
+    "Dashboard": {
+      "Title": "لوحة تحكم الطالب",
+      "WelcomeBack": "مرحباً بعودتك",
+      "PageDescription": "هنا نظرة عامة على تقدمك الأكاديمي.",
+      "QuickStats": {
+        "EnrolledCourses": "الدورات المسجلة",
+        "CompletedAssignments": "الواجبات المكتملة",
+        "AverageGrade": "متوسط الدرجات",
+        "LearningHours": "ساعات التعلم"
+      },
+      "RecentActivity": "النشاط الأخير",
+      "UpcomingDeadlines": "المواعيد القادمة",
+      "Meta": {
+        "title": "لوحة تحكم الطالب",
+        "description": "تتبع تقدمك الأكاديمي ودوراتك وواجباتك ودرجاتك."
+      }
+    },
+    "Courses": {
+      "Title": "دوراتي",
+      "Subtitle": "تتبع تقدمك في الدورات المسجلة",
+      "SearchPlaceholder": "ابحث عن الدورات...",
+      "BrowseCourses": "تصفح الدورات",
+      "ActiveCourses": "الدورات النشطة",
+      "CompletedLessons": "الدروس المكتملة",
+      "LearningHours": "ساعات التعلم",
+      "ContinueLearning": "متابعة التعلم",
+      "ViewDetails": "التفاصيل",
+      "LoadMore": "تحميل المزيد",
+      "NextLesson": "الدرس التالي",
+      "Students": "الطلاب"
+    },
+    "Assignments": {
+      "Title": "الواجبات",
+      "Subtitle": "تتبع وإدارة واجباتك الأكاديمية",
+      "Pending": "قيد الانتظار",
+      "Submitted": "تم التسليم",
+      "Overdue": "متأخر",
+      "Draft": "مسودة",
+      "AverageGrade": "متوسط الدرجات",
+      "WorkOnAssignment": "العمل على الواجب",
+      "ViewSubmission": "عرض التسليم",
+      "ViewDetails": "عرض التفاصيل",
+      "DueDate": "تاريخ الاستحقاق",
+      "MaxGrade": "الدرجة القصوى",
+      "Grade": "الدرجة",
+      "Attachments": "المرفقات",
+      "SubmittedAt": "تم التسليم في",
+      "OverdueWarning": "هذا الواجب متأخر! يرجى التسليم في أقرب وقت ممكن",
+      "LateSubmission": "تسليم متأخر"
+    },
+    "Exams": {
+      "Title": "الامتحانات",
+      "Subtitle": "جدولة الامتحانات وتتبع النتائج",
+      "UpcomingExams": "الامتحانات القادمة",
+      "RecentResults": "النتائج الأخيرة",
+      "PracticeExams": "امتحانات تدريبية",
+      "StartExam": "بدء الامتحان",
+      "ViewDetails": "عرض التفاصيل",
+      "CompletedExams": "الامتحانات المكتملة",
+      "AverageGrade": "متوسط الدرجات",
+      "OverallRank": "الترتيب العام",
+      "Duration": "المدة",
+      "Questions": "الأسئلة",
+      "Date": "التاريخ",
+      "Rank": "الترتيب",
+      "Attempts": "المحاولات",
+      "BestScore": "أفضل درجة"
+    },
+    "Calendar": {
+      "Title": "التقويم",
+      "Subtitle": "جدولة وإدارة المهام الأكاديمية",
+      "UpcomingEvents": "الأحداث القادمة",
+      "MonthlyCalendar": "التقويم الشهري",
+      "CalendarPlaceholder": "سيتم إضافة عرض التقويم لاحقًا"
+    },
+    "Community": {
+      "Title": "المجتمع",
+      "Subtitle": "تفاعل مع الزملاء واطرح الأسئلة",
+      "AskQuestion": "اطرح سؤالاً جديداً",
+      "Questions": "الأسئلة",
+      "Answers": "الإجابات",
+      "ActiveMembers": "الأعضاء النشطون",
+      "MyQuestions": "أسئلتي",
+      "Replies": "الردود",
+      "Likes": "الإعجابات",
+      "Author": "الكاتب"
+    },
+    "Profile": {
+      "Title": "الملف الشخصي",
+      "Subtitle": "معلوماتك الشخصية والأكاديمية",
+      "BasicInfo": "المعلومات الأساسية",
+      "AcademicStats": "الإحصائيات الأكاديمية",
+      "Achievements": "الإنجازات",
+      "EditInfo": "تعديل المعلومات",
+      "ChangePhoto": "تغيير الصورة",
+      "FullName": "الاسم الكامل",
+      "Email": "البريد الإلكتروني",
+      "StudentID": "معرف الطالب",
+      "JoinDate": "تاريخ الانضمام",
+      "Courses": "الدورات",
+      "Average": "المتوسط",
+      "Certificates": "الشهادات",
+      "TopStudent": "طالب متفوق",
+      "ActiveParticipant": "مشارك نشط",
+      "TaskCompleter": "منجز المهام"
+    },
+    "Settings": {
+      "Title": "الإعدادات",
+      "Subtitle": "تخصيص تفضيلات حسابك",
+      "Account": "الحساب",
+      "Notifications": "الإشعارات",
+      "Theme": "المظهر",
+      "Language": "اللغة",
+      "Privacy": "الخصوصية"
+    }
+  },
+
+  "Teacher": {
+    "Navigation": {
+      "Dashboard": "لوحة التحكم",
+      "Courses": "الدورات",
+      "Assignments": "الواجبات",
+      "Exams": "الامتحانات",
+      "Students": "الطلاب",
+      "Analytics": "التحليلات",
+      "Profile": "الملف الشخصي",
+      "Settings": "الإعدادات"
+    },
+    "Dashboard": {
+      "Meta": {
+        "title": "لوحة تحكم المعلم",
+        "description": "إدارة الدورات والطلاب والتحليلات من مكان مركزي واحد."
+      },
+      "WelcomeBack": "مرحباً بعودتك",
+      "PageDescription": "هنا نظرة عامة على أنشطتك التعليمية.",
+      "QuickStats": {
+        "ActiveCourses": "الدورات النشطة",
+        "TotalStudents": "إجمالي الطلاب",
+        "PendingSubmissions": "الواجبات المعلقة",
+        "AverageRating": "متوسط تقييم الدورة"
+      },
+      "SystemOverview": "نظرة عامة على النظام",
+      "TopPerformingCourses": "الدورات الأعلى أداءً",
+      "QuickActions": {
+        "Title": "إجراءات سريعة",
+        "CreateCourse": "إنشاء دورة جديدة",
+        "AddAssignment": "إضافة واجب جديد",
+        "ScheduleExam": "جدولة امتحان",
+        "ViewReports": "عرض التقارير"
+      }
+    },
+    "messages": {
+      "title": "الرسائل",
+      "description": "إدارة الرسائل مع الطلاب والمعلمين"
+    },
+    "payments": {
+      "title": "المدفوعات",
+      "description": "عرض سجل المدفوعات والإيرادات"
+    },
+    "reports": {
+      "title": "التقارير",
+      "description": "عرض وتحليل التقارير"
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "description": "إدارة إعدادات الحساب"
+    },
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "description": "نظرة عامة على لوحة تحكم المعلم",
+      "welcome": "مرحباً بك في لوحة تحكم المعلم"
+    }
+  },
+
+  "Common": {
+    "Auth": {
+      "Login": "تسجيل الدخول",
+      "Logout": "تسجيل الخروج",
+      "Register": "تسجيل",
+      "Email": "البريد الإلكتروني",
+      "Password": "كلمة المرور",
+      "RememberMe": "تذكرني"
+    },
+    "Actions": {
+      "Save": "حفظ",
+      "Cancel": "إلغاء",
+      "Delete": "حذف",
+      "Edit": "تعديل",
+      "View": "عرض",
+      "Submit": "إرسال",
+      "Submitting": "جارٍ الإرسال...",
+      "Loading": "جارٍ التحميل...",
+      "Confirm": "تأكيد",
+      "Close": "إغلاق"
+    },
+    "Messages": {
+      "Success": "تمت العملية بنجاح!",
+      "Error": "حدث خطأ غير متوقع.",
+      "NotFound": "لم يتم العثور على المورد المطلوب.",
+      "Unauthorized": "غير مصرح لك بتنفيذ هذا الإجراء.",
+      "ConfirmDelete": "هل أنت متأكد أنك تريد حذف هذا العنصر؟",
+      "UnsavedChanges": "لديك تغييرات غير محفوظة. هل أنت متأكد أنك تريد المغادرة؟"
+    },
+    "Time": {
+      "Days": "أيام",
+      "Hours": "ساعات",
+      "Minutes": "دقائق",
+      "Seconds": "ثوان",
+      "Ago": "منذ",
+      "Now": "الآن",
+      "Yesterday": "أمس",
+      "Tomorrow": "غدًا",
+      "LastWeek": "الأسبوع الماضي",
+      "NextWeek": "الأسبوع القادم",
+      "LastMonth": "الشهر الماضي",
+      "NextMonth": "الشهر القادم",
+      "LastYear": "السنة الماضية",
+      "NextYear": "السنة القادمة",
+      "Years": "سنوات"
+    }
+  },
+
+  "direction": "rtl",
+
+  "Admin": {
+    "Dashboard": {
+      "Meta": {
+        "title": "لوحة تحكم الأدمن",
+        "description": "نظرة عامة على النظام والمقاييس الرئيسية."
+      },
+      "PageTitle": "لوحة تحكم الأدمن",
+      "PageDescription": "هنا نظرة عامة على مستوى النظام.",
+      "QuickStats": {
+        "TotalUsers": "إجمالي المستخدمين",
+        "TotalCourses": "إجمالي الدورات",
+        "TotalRevenue": "إجمالي الإيرادات",
+        "ContentPending": "المحتوى المعلق"
+      },
+      "RevenueOverview": "نظرة عامة على الإيرادات",
+      "UserGrowth": "نمو المستخدمين",
+      "ChartPlaceholder": "سيتم عرض المخطط هنا."
     }
   }
 }

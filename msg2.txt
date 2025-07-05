@@ -1,0 +1,5 @@
+feat: establish new architecture and update deps
+
+- Update dependencies including next-intl.
+- Configure root layout and middleware for i18n routing.
+- Establish the foundation for the new role-based dashboard structure. 
