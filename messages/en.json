@@ -1,36 +1,109 @@
 {
+  "Landing": {
+    "Hero": {
+      "Title": "Transform Education with Our Comprehensive Learning Platform",
+      "Subtitle": "Empower educators, engage students, and streamline administration with our all-in-one educational solution featuring course management, online exams, and powerful analytics.",
+      "GetStarted": "Get Started",
+      "WatchDemo": "Watch Demo",
+      "TrustedBy": "Trusted by over 10,000+ educators worldwide"
+    },
+    "Features": {
+      "Title": "Everything You Need for Modern Education",
+      "Subtitle": "Our comprehensive platform provides all the tools needed to deliver exceptional educational experiences.",
+      "CourseManagement": {
+        "Title": "Course Management",
+        "Description": "Create and organize courses with hierarchical structure: Years → Terms → Units → Lessons. Easy content management and progress tracking."
+      },
+      "OnlineExams": {
+        "Title": "Online Exams & Quizzes",
+        "Description": "Build comprehensive exams with multiple question types, automated grading, and detailed analytics for student performance."
+      },
+      "Assignment": {
+        "Title": "Assignment System",
+        "Description": "Create, distribute, and grade assignments with file uploads, rubrics, and automated deadline management."
+      },
+      "Analytics": {
+        "Title": "Powerful Analytics",
+        "Description": "Track student progress, course effectiveness, and institutional performance with detailed reports and insights."
+      },
+      "Community": {
+        "Title": "Learning Community",
+        "Description": "Foster collaboration with discussion forums, study groups, and peer-to-peer learning features."
+      },
+      "MultiLanguage": {
+        "Title": "Multi-Language Support",
+        "Description": "Full Arabic and English support with RTL layout for inclusive global education."
+      }
+    },
+    "Pricing": {
+      "Title": "Choose Your Plan",
+      "Subtitle": "Flexible pricing for institutions of all sizes",
+      "Free": {
+        "Title": "Free",
+        "Price": "$0",
+        "Period": "/month"
+      },
+      "Basic": {
+        "Title": "Basic",
+        "Price": "$29",
+        "Period": "/month"
+      },
+      "Premium": {
+        "Title": "Premium",
+        "Price": "$99",
+        "Period": "/month"
+      }
+    },
+    "FAQ": {
+      "Title": "Frequently Asked Questions",
+      "Questions": {
+        "Setup": {
+          "Question": "How quickly can we get started?",
+          "Answer": "You can set up your educational platform in just a few minutes. Create your account, invite your team, and start building courses immediately."
+        },
+        "Support": {
+          "Question": "What kind of support do you provide?",
+          "Answer": "We offer 24/7 support for all users, with priority support for premium plans. Our team includes educational technology specialists to help you succeed."
+        },
+        "Migration": {
+          "Question": "Can we migrate from our existing system?",
+          "Answer": "Yes! We provide comprehensive migration tools and assistance to help you transfer your existing courses, student data, and content seamlessly."
+        }
+      }
+    }
+  },
   "Register": {
-    "Title": "Welcome",
-    "subtitle": "Join the family of",
+    "Title": "Welcome to EduPlatform",
+    "subtitle": "Join thousands of educators",
     "Form": {
-      "UserName": "User name",
+      "UserName": "Full name",
       "EmailAddress": "Email address",
       "Password": "Password",
       "ConfirmPassword": "Confirm password",
-      "SignUp": "Sign up",
-      "SigningUp": "Signing up...",
+      "SignUp": "Create Account",
+      "SigningUp": "Creating account...",
       "Or": "or",
-      "SignInWithGoogle": "Sign in with Google",
-      "SigningInWithGoogle": "Signing in...",
+      "SignInWithGoogle": "Sign up with Google",
+      "SigningInWithGoogle": "Signing up...",
       "AlreadyHaveAccount": "Already have an account?",
-      "Login": "Login"
+      "Login": "Sign In"
     },
     "ToastsOrMessages": {
-      "RegistrationSuccessful": "Registration successful , welcome!",
+      "RegistrationSuccessful": "Account created successfully! Welcome to EduPlatform!",
       "RegistrationFailed": "Registration failed. Please try again later.",
-      "EmailALreadyInUseError": "The email address is already in use by another account.",
+      "EmailALreadyInUseError": "This email address is already registered.",
       "WeakPasswordError": "Password must be at least 6 characters",
       "DefaultError": "Registration failed. Please try again later.",
-      "PopupClosedByUser": "Login by google failed , please try again."
+      "PopupClosedByUser": "Google sign-up was cancelled. Please try again."
     },
     "Validation": {
       "UserName": {
-        "min": "User name must be at least 3 characters",
-        "max": "User name must be at most 20 characters",
-        "required": "User name is required"
+        "min": "Full name must be at least 2 characters",
+        "max": "Full name must be at most 50 characters",
+        "required": "Full name is required"
       },
       "EmailAddress": {
-        "email": "Invalid email address",
+        "email": "Please enter a valid email address",
         "required": "Email is required"
       },
       "Password": {
@@ -38,174 +111,275 @@
         "required": "Password is required"
       },
       "ConfirmPassword": {
-        "required": "Confirm password is required",
+        "required": "Please confirm your password",
         "oneOf": "Passwords must match"
       }
     }
   },
-
-  "MetaData": {
-    "Keywords": "Film O'Clock, Movies, TV Shows , Series , Streaming, Reviews, API, Actors, Actresses, Photos, Ratings, Synopsis, Trailers, Teasers, Credits, Cast, Movies, TV Shows, Streaming, Reviews,  Actors, Actresses, Photos, Ratings, Synopsis, Trailers, Teasers, Credits, Cast, film oclock, film clock, film-oclock, filmo clock",
-    "Movie": " Movie ",
-    "TvShow": " TV Show ",
-    "MainPage": {
-      "Title": "Film O'Clock",
-      "Description": "Film OClock is your ultimate movie companion — discover, track, and explore the latest movies and TV shows with stunning visuals, personalized watchlists, and multi-language support. Your next favorite film is just a tick away!"
+  "Student": {
+    "Navigation": {
+      "dashboard": "Dashboard",
+      "courses": "My Courses",
+      "assignments": "Assignments",
+      "exams": "Exams",
+      "calendar": "Calendar",
+      "community": "Community",
+      "messages": "Messages",
+      "profile": "Profile",
+      "settings": "Settings"
     },
-    "Library": {
-      "watchlist": {
-        "Title": "Watchlist | FilmO'Clock",
-        "Description": "Here you will find the Movies and Tv shows you have saved in your watchlist."
-      },
-      "favorites": {
-        "Title": "Favorites | FilmO'Clock",
-        "Description": "Here you will find the Movies and Tv shows you have saved in your favorites."
-      },
-      "WatchedList": {
-        "Title": "Watched List | FilmO'Clock",
-        "Description": "Here you will find the Movies and Tv shows you have watched."
+    "Header": {
+      "searchPlaceholder": "Search here...",
+      "notifications": "Notifications",
+      "viewAll": "View All",
+      "userMenu": {
+        "profile": "Profile",
+        "settings": "Settings",
+        "logout": "Logout"
       }
+    },
+    "Dashboard": {
+      "Title": "Student Dashboard",
+      "WelcomeBack": "Welcome Back",
+      "PageDescription": "Here is an overview of your academic progress.",
+      "QuickStats": {
+        "EnrolledCourses": "Enrolled Courses",
+        "CompletedAssignments": "Completed Assignments",
+        "AverageGrade": "Average Grade",
+        "LearningHours": "Learning Hours"
+      },
+      "RecentActivity": "Recent Activity",
+      "UpcomingDeadlines": "Upcoming Deadlines",
+      "Meta": {
+        "title": "Student Dashboard",
+        "description": "Track your academic progress, courses, assignments, and grades."
+      }
+    },
+    "Courses": {
+      "Title": "My Courses",
+      "Subtitle": "Track your progress in enrolled courses",
+      "SearchPlaceholder": "Search courses...",
+      "BrowseCourses": "Browse Courses",
+      "ActiveCourses": "Active Courses",
+      "CompletedLessons": "Completed Lessons",
+      "LearningHours": "Learning Hours",
+      "ContinueLearning": "Continue Learning",
+      "ViewDetails": "Details",
+      "LoadMore": "Load More Courses",
+      "NextLesson": "Next Lesson",
+      "Students": "Students"
+    },
+    "Assignments": {
+      "Title": "Assignments",
+      "Subtitle": "Track and manage your academic assignments",
+      "Pending": "Pending",
+      "Submitted": "Submitted",
+      "Overdue": "Overdue",
+      "Draft": "Draft",
+      "AverageGrade": "Average Grade",
+      "WorkOnAssignment": "Work on Assignment",
+      "ViewSubmission": "View Submission",
+      "ViewDetails": "View Details",
+      "DueDate": "Due Date",
+      "MaxGrade": "Max Grade",
+      "Grade": "Grade",
+      "Attachments": "Attachments",
+      "SubmittedAt": "Submitted at",
+      "OverdueWarning": "This assignment is overdue! Please submit as soon as possible",
+      "LateSubmission": "Late Submission"
+    },
+    "Exams": {
+      "Title": "Exams",
+      "Subtitle": "Exam scheduling and results tracking",
+      "UpcomingExams": "Upcoming Exams",
+      "RecentResults": "Recent Results",
+      "PracticeExams": "Practice Exams",
+      "StartExam": "Start Exam",
+      "ViewDetails": "View Details",
+      "CompletedExams": "Completed Exams",
+      "AverageGrade": "Average Grade",
+      "OverallRank": "Overall Rank",
+      "Duration": "Duration",
+      "Questions": "Questions",
+      "Date": "Date",
+      "Rank": "Rank",
+      "Attempts": "Attempts",
+      "BestScore": "Best Score"
+    },
+    "Calendar": {
+      "Title": "Calendar",
+      "Subtitle": "Schedule and manage academic tasks",
+      "UpcomingEvents": "Upcoming Events",
+      "MonthlyCalendar": "Monthly Calendar",
+      "CalendarPlaceholder": "Calendar view will be added later"
+    },
+    "Community": {
+      "Title": "Community",
+      "Subtitle": "Interact with peers and ask questions",
+      "AskQuestion": "Ask New Question",
+      "Questions": "Questions",
+      "Answers": "Answers",
+      "ActiveMembers": "Active Members",
+      "MyQuestions": "My Questions",
+      "Replies": "Replies",
+      "Likes": "Likes",
+      "Author": "Author"
     },
     "Profile": {
-      "Title": "Profile | FilmO'Clock",
-      "Description": "Here you will find all the information about your account."
+      "Title": "Profile",
+      "Subtitle": "Your personal and academic information",
+      "BasicInfo": "Basic Information",
+      "AcademicStats": "Academic Statistics",
+      "Achievements": "Achievements",
+      "EditInfo": "Edit Information",
+      "ChangePhoto": "Change Photo",
+      "FullName": "Full Name",
+      "Email": "Email",
+      "StudentID": "Student ID",
+      "JoinDate": "Join Date",
+      "Courses": "Courses",
+      "Average": "Average",
+      "Certificates": "Certificates",
+      "TopStudent": "Top Student",
+      "ActiveParticipant": "Active Participant",
+      "TaskCompleter": "Task Completer"
     },
-    "actionUrls": {
-      "resetPassword": {
-        "Title": "Reset Password | FilmO'Clock",
-        "Description": "Reset your password"
-      },
-      "verifyEmail": {
-        "Title": "Activate Account | FilmO'Clock",
-        "Description": "Activate your account"
-      },
-      "recoverEmail": {
-        "Title": "Recover Email | FilmO'Clock",
-        "Description": "Recover your email"
-      }
-    },
-    "Login": {
-      "Title": "Login | FilmO'Clock",
-      "Description": "Sign in to your account"
-    },
-    "Register": {
-      "Title": "Register | FilmO'Clock",
-      "Description": "Create your account"
-    },
-    "ForgotPassword": {
-      "Title": "Reset Password | FilmO'Clock",
-      "Description": "Reset your password"
-    },
-    "Explore": {
-      "Description": "Discover the latest movies and TV shows with stunning visuals, personalized watchlists, and multi-language support.",
-      "Movies": {
-        "Title": "Today's Movies | FilmO'Clock"
-      },
-      "TvShows": {
-        "Title": "Today's TV Shows | FilmO'Clock"
-      }
-    },
-    "GenresPage": {
-      "MoviesTitle": "Movies by Genre | FilmO'Clock",
-      "TvShowsTitle": "TV Shows by Genre | FilmO'Clock",
-      "MoviesDescription": "Discover movies by genre.",
-      "TvShowsDescription": "Discover TV shows by genre."
-    },
-    "AllMovies": {
-      "Title": "Discover Movies | FilmO'Clock",
-      "Description": "Discover All Movies by multiple search filters."
-    },
-    "AllTvShows": {
-      "Title": "Discover TV Shows | FilmO'Clock",
-      "Description": "Discover All TV shows by multiple search filters."
-    },
-    "NowPlayingMovies": {
-      "Title": "Now Playing Movies | FilmO'Clock",
-      "Description": "Discover the latest movies currently in theaters."
-    },
-    "UpcomingMovies": {
-      "Title": "Upcoming Movies | FilmO'Clock",
-      "Description": "Discover upcoming movies."
-    },
-    "PopularPeople": {
-      "Title": "Popular People | FilmO'Clock",
-      "Description": "Discover popular people."
-    },
-    "TrendingPeople": {
-      "Title": "Trending People | FilmO'Clock",
-      "Description": "Discover trending people."
-    },
-    "PopularMovies": {
-      "Title": "Popular Movies | FilmO'Clock",
-      "Description": "Discover popular movies."
-    },
-    "PopularTvShows": {
-      "Title": "Popular TV Shows | FilmO'Clock",
-      "Description": "Discover popular TV shows."
-    },
-    "TopRatedMovies": {
-      "Title": "Top Rated Movies | FilmO'Clock",
-      "Description": "Discover top rated movies."
-    },
-    "TopRatedTvShows": {
-      "Title": "Top Rated TV Shows | FilmO'Clock",
-      "Description": "Discover top rated TV shows."
-    },
-    "TrendingMovies": {
-      "Title": "Trending Movies | FilmO'Clock",
-      "Description": "Discover trending movies."
-    },
-    "TrendingTvShows": {
-      "Title": "Trending TV Shows | FilmO'Clock",
-      "Description": "Discover trending TV shows."
-    },
-    "AiringTodayTvShows": {
-      "Title": "TV Shows Airing Today | FilmO'Clock",
-      "Description": "Discover TV shows airing today."
-    },
-    "OnTheAirTvShows": {
-      "Title": "Currently Airing TV Shows | FilmO'Clock",
-      "Description": "Discover TV shows currently airing."
-    },
-    "WatchTv": {
-      "Title": "{TvName} Season({s}) Episode({e}) (TV Series) | FilmO'Clock"
-    },
-    "WatchMovie": {
-      "Title": "{MovieName} (Movie) | FilmO'Clock"
-    },
-    "SearchResults": {
-      "title": "({query}) Search results | FilmO'Clock",
-      "titleWithPage": "({query}) Search results - page {page} | FilmO'Clock",
-      "description": "Find movies, TV shows, and people related to '{query}'.",
-      "descriptionWithPage": "Page {page} of search results for {query}."
-    },
-    "NotFound": {
-      "Title": "404 - Page Not Found",
-      "description": "The page you are looking for does not exist. It might have been moved or deleted."
-    },
-    "CompanyPage": {
-      "siteName": "FilmO'Clock",
-      "NotFoundTitle": "Company Not Found",
-      "TitleSuffix": "{type} by Company",
-      "MetaDescriptionFallback": "Explore {type} content by {companyName}. Discover details, headquarters, and more.",
-      "movie": "Movies",
-      "tv": "TV Shows"
-    },
-    "terms": {
-      "Title": "Terms of Service | Film O'Clock",
-      "Description": "Review the terms and conditions of using this demo project."
-    },
-    "privacy": {
-      "Title": "Privacy Policy | Film O'Clock",
-      "Description": "Learn how we handle your information in this educational project."
-    },
-    "dmca": {
-      "Title": "DMCA Notice | Film O'Clock",
-      "Description": "Understand how we handle DMCA content complaints."
-    },
-    "content-removal": {
-      "Title": "Content Removal | Film O'Clock",
-      "Description": "Find out how to request removal of content shown in this demo."
+    "Settings": {
+      "Title": "Settings",
+      "Subtitle": "Customize your account preferences",
+      "Account": "Account",
+      "Notifications": "Notifications",
+      "Theme": "Theme",
+      "Language": "Language"
     }
+  },
+  "Teacher": {
+    "Navigation": {
+      "dashboard": "Dashboard",
+      "courses": "Courses",
+      "students": "Students",
+      "assignments": "Assignments",
+      "exams": "Exams",
+      "messages": "Messages",
+      "payments": "Payments",
+      "reports": "Reports",
+      "settings": "Settings"
+    },
+    "Header": {
+      "searchPlaceholder": "Search here..."
+    },
+    "Dashboard": {
+      "Title": "Teacher Dashboard",
+      "WelcomeBack": "Welcome Back",
+      "PageDescription": "Here's an overview of your teaching activities.",
+      "QuickStats": {
+        "TotalStudents": "Total Students",
+        "TotalCourses": "Total Courses",
+        "MonthlyRevenue": "Monthly Revenue",
+        "PendingAssignments": "Pending Assignments"
+      },
+      "RecentActivity": "Recent Activity",
+      "UpcomingEvents": "Upcoming Events",
+      "Meta": {
+        "title": "Teacher Dashboard",
+        "description": "Manage your courses, students, and track your teaching performance."
+      }
+    },
+    "Assignments": {
+      "Title": "Assignments",
+      "Subtitle": "Review and grade student assignments"
+    },
+    "messages": {
+      "title": "Messages",
+      "description": "Manage messages with students and teachers"
+    },
+    "payments": {
+      "title": "Payments",
+      "description": "View payment and revenue records"
+    },
+    "reports": {
+      "title": "Reports",
+      "description": "View and analyze reports"
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Manage your account settings"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "Teacher dashboard overview",
+      "welcome": "Welcome to your teacher dashboard"
+    }
+  },
+  "Admin": {
+    "Dashboard": {
+      "Meta": {
+        "title": "Admin Dashboard",
+        "description": "System overview and key metrics."
+      },
+      "PageTitle": "Admin Dashboard",
+      "PageDescription": "Here is a system-wide overview.",
+      "QuickStats": {
+        "TotalUsers": "Total Users",
+        "TotalCourses": "Total Courses",
+        "TotalRevenue": "Total Revenue",
+        "ContentPending": "Pending Content"
+      },
+      "RevenueOverview": "Revenue Overview",
+      "UserGrowth": "User Growth",
+      "ChartPlaceholder": "Chart will be displayed here."
+    }
+  },
+  "Common": {
+    "Auth": {
+      "Login": "Login",
+      "Logout": "Logout",
+      "Register": "Register",
+      "Email": "Email",
+      "Password": "Password",
+      "RememberMe": "Remember me"
+    },
+    "Actions": {
+      "Save": "Save",
+      "Cancel": "Cancel",
+      "Delete": "Delete",
+      "Edit": "Edit",
+      "View": "View",
+      "Submit": "Submit",
+      "Submitting": "Submitting...",
+      "Loading": "Loading...",
+      "Confirm": "Confirm",
+      "Close": "Close"
+    },
+    "Messages": {
+      "Success": "Operation successful!",
+      "Error": "An unexpected error occurred.",
+      "NotFound": "The requested resource was not found.",
+      "Unauthorized": "You are not authorized to perform this action.",
+      "ConfirmDelete": "Are you sure you want to delete this item?",
+      "UnsavedChanges": "You have unsaved changes. Are you sure you want to leave?"
+    },
+    "Time": {
+      "Days": "days",
+      "Hours": "hours",
+      "Minutes": "minutes",
+      "Seconds": "seconds",
+      "Ago": "ago",
+      "Now": "now",
+      "Yesterday": "yesterday",
+      "Tomorrow": "tomorrow",
+      "LastWeek": "last week",
+      "NextWeek": "next week",
+      "LastMonth": "last month",
+      "NextMonth": "next month",
+      "LastYear": "last year",
+      "NextYear": "next year",
+      "Years": "years"
+    }
+  },
+  "direction": "ltr",
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, ar {العربية} en {English} other {Unknown}}"
   }
 }

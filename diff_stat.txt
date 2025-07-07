@@ -1,0 +1,27 @@
+ messages/ar.json                                  | 344 +++++++++++++++
+ messages/en.json                                  | 510 ++++++++++++++-------
+ package-lock.json                                 | 512 +++++++++++++++++++++-
+ package.json                                      |   6 +-
+ src/_Components/Auth/Login/Login.tsx              |   5 -
+ src/_Components/Auth/PasswordInput.tsx            |  82 ----
+ src/_Components/Auth/Register/Register.tsx        |  88 ----
+ src/_Components/Auth/Register/RegisterForm.tsx    | 258 -----------
+ src/_Components/LocaleSwitcher/LocaleSwitcher.tsx |  32 --
+ src/_Components/PageSection/PageSection.tsx       |  20 -
+ src/_Components/TestDarkMode.tsx                  |  15 -
+ src/app/[locale]/(pages)/(Home)/page.tsx          |   7 -
+ src/app/[locale]/(pages)/auth/[slug]/page.tsx     |  66 ---
+ src/app/[locale]/App.tsx                          |  30 --
+ src/app/[locale]/[...rest]/page.tsx               |  20 -
+ src/app/[locale]/globals.css                      |  69 ---
+ src/app/[locale]/layout.tsx                       |  61 +--
+ src/app/favicon.ico                               | Bin 25931 -> 0 bytes
+ src/app/layout.tsx                                |  29 +-
+ src/app/not-found.tsx                             |  13 -
+ src/app/page.tsx                                  |   8 +-
+ src/constants/constants.ts                        |   0
+ src/constants/enums.ts                            |   0
+ src/lib/Redux/slices/local-slices/authSlice.ts    |  70 ---
+ src/lib/Redux/store.ts                            |  17 -
+ src/middleware.ts                                 |   1 +
+ 26 files changed, 1257 insertions(+), 1006 deletions(-)
